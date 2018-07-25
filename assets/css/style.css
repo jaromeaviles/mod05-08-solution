@@ -1,0 +1,120 @@
+/*
+ *
+ * CSS Reset
+ *
+ */
+
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+/*
+ *
+ * General Rules
+ *
+ */
+
+ div#mainBG {
+ 	background-image: url(./jingle.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	height: 100vh;
+ }
+
+
+ div#bg {
+
+ 	padding-top: 20px;
+ 	width: 60vw;
+ 	height: auto;
+ 	margin: 0 auto;
+ 	background-color: #333;
+ 	color: #fff;
+
+ }
+
+ h1 {
+
+ 	font-family: 'Eczar', serif;
+ 	letter-spacing: 5px;
+ 	text-align: center;
+ 	color: #fff;
+ 	text-shadow: 3px 3px #333;
+ }
+
+ p {
+ 	font-family: 'Roboto', sans-serif;
+ 	letter-spacing: 2px;
+ 	padding: 10px;
+ }
+
+ li {
+ 	display: none;
+ }
+
+ li:first-child {
+ 	display: block;
+ }
+
+ button#nextButton {
+
+ 	padding: 15px;
+ 	position: absolute;
+ 	bottom: 2%;
+ 	right: 5%;
+ 	color: #333;
+
+ 	background-color: #F4F0CB;
+ 	border-top-right-radius: 20%;
+ 	border-bottom-right-radius: 20%;
+
+ }
+
+ button#nextButton:hover {
+ 	cursor: pointer;
+ }
+
+
+/*
+ body {
+ 	background-image: url(./jingle.jpg);
+
+ }*/
+
+/* div#mainWrapper > h1 {
+ 	padding: 15px;
+ 	margin-bottom: 30px;
+ }*/
+
+/* button#nextButton {
+ 	display: block;
+ 	width: 90px;
+ 	height: 50px;
+ 	margin: 0 auto;
+ }
+
+ button#nextButton:hover {
+ 	cursor: pointer;
+ }*/
+
+/* div#mainWrapper {
+
+ 	width: 80%;
+ 	margin: 40px auto;
+ 	text-align: center;
+ 	padding: 60px;
+ 	background-color: #333;
+ 	color: #fff;
+ }
+
+ div#main {
+ 	padding-bottom: 40px;
+ }
+*/
+ /*p.lyrics {
+ 	padding: 15px;
+ 	font-size: 20px;
+ }
+*/
